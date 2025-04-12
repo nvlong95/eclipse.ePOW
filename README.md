@@ -26,19 +26,23 @@ cargo install bitz
 
 Đảm bảo ví của bạn có ít nhất 0.0005 ETH trên mạng Eclipse để thực hiện các giao dịch. nên gửi vào ví tầm 0.01 eth để dùng, dùng ko hết sau rút ra
 
-cài tmux //để khi tắt vps lệnh collect vẫn tự động chạy
+* cài tmux //để khi tắt vps lệnh collect vẫn tự động chạy
 
 sudo apt install tmux
 
-tạo tmux
+* tạo tmux
 
 tmux new -s bitzloop
 
-Thu thập Bitz
+* Thu thập Bitz
 
 bitz collect
 
 bấm Ctrl B sau đó bấm D để thoát tmux// lúc này đã tự động collect Bitz
+
+* để quay lại tmux 
+
+tmux attach -t bitzloop
 
 Nhận Bitz đã thu thập
 
